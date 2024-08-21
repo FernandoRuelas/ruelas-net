@@ -8,7 +8,7 @@
     <div id="home">
       <div class="background-container">
         <div class="text-container">
-          <h2>Título de ejemplo</h2>
+          <h2>{{ $t('title') }}</h2>
           <h4>Texto de ejemplo para esta sección, siempre resaltará</h4>
         </div>
         <img
