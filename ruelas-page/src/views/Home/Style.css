@@ -12,11 +12,15 @@
 }
 
 .background-container {
-  height: 350px;
+  height: auto;
   width: 100%;
   background-image: url("../../assets/Vector3.png");
   background-repeat: no-repeat;
   background-size: 100% 350px;
+}
+
+#home > .background-container{
+  height: 350px;
 }
 
 .container-image {
@@ -56,32 +60,34 @@
     url("../../assets/Vector3.png");
 }
 
+
+.navBar-list {
+  background: #0065ff;
+  height: 45px;
+  padding: 0;
+}
+
+
+
 /* ****************About****************** */
 .about {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 100px;
+  gap: 20px;
+  padding: 0 30px;
   margin-bottom: 80px;
 }
 
 #about > div {
-  flex: 1 1 50%;
   min-width: 300px;
 }
 
 #about > div:first-child {
   margin-top: -140px;
-}
-
-.container-left {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  
-.container-left > div > h4 {
-  text-wrap: wrap;
-  width: clamp(200px, 50vw, 480px);
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 #about > div:last-child {
@@ -89,7 +95,15 @@
   flex-direction: column;
   gap: 20px;
   align-self: center;
+  flex: 1 1 55%;
 }
+  
+.container-left > div > h4 {
+  text-wrap: wrap;
+  width: clamp(200px, 50vw, 480px);
+}
+
+
 
 #about h2,
 #about h4 {
@@ -102,6 +116,7 @@
 .packages-text-container {
   padding-top: 30px;
   padding-left: 50px;
+  margin-bottom: 20px;
   color: white;
 }
 
@@ -116,7 +131,6 @@
 }
 
 .section-packages{
-    margin-top:-250px;
     gap:20px;
 }
 
@@ -129,4 +143,48 @@
     justify-content: center;
     min-width: 250px;
     align-self: center;
+}
+
+
+
+/**************************************************/
+/***************Responsive for movile**************/
+/**************************************************/
+
+/*Home*/
+@media (max-width: 792px) {
+  #home > .background-container{
+    height: 250px;
+    background-color: #0065ff;
+  }
+ 
+
+}
+
+/*About*/
+@media (max-width: 792px) {
+
+  #about > div:first-child{
+    margin-top: 0;
+  }
+
+
+
+}
+
+
+/*Packages*/
+@media (max-width: 792px) {
+
+
+  #packages > .background-container{
+    background-color: #0065ff;
+  }
+
+
+  .packages-container-avisos{
+  background-color: white;
+    /* color:white; */
+  }
+
 }

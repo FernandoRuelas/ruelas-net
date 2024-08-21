@@ -94,42 +94,43 @@
     <!------------------------------------------------>
     <div id="packages">
       <div class="background-container d-flex flex-column">
-
         <div class="packages-text-container">
           <h2>Packages</h2>
         </div>
+
+        <div class="p-2 d-flex justify-space-around flex-wrap section-packages">
+          <CardPackage></CardPackage>
+          <CardPackage></CardPackage>
+          <CardPackage></CardPackage>
+          <CardPackage></CardPackage>
+        </div>
+
+        <div class="mt-5 px-10 packages-container-avisos">
+          <p>
+            Aute cupidatat <a href="">Lorem</a>Lorem occaecat ad aute culpa
+            <a href="">qui</a> magna minim. Magna aliqua commodo ad laboris
+            velit esse laborum pariatur quis duis consectetur. Eiusmod cillum
+            nulla magna Lorem ipsum culpa cupidatat elit. Veniam ut
+            reprehenderit duis sunt deserunt aliquip non irure ut voluptate
+            Lorem nulla exercitation veniam. Ipsum tempor ipsum laborum minim
+            Lorem et cillum.
+          </p>
+          <p>
+            Aute cupidatat <a href="">Lorem</a>Lorem occaecat ad aute culpa
+            <a href="">qui</a> magna minim. Magna aliqua commodo ad laboris
+            velit esse laborum pariatur quis duis consectetur. Eiusmod cillum
+            nulla magna Lorem ipsum culpa cupidatat elit. Veniam ut
+            reprehenderit duis sunt deserunt aliquip non irure ut voluptate
+            Lorem nulla exercitation veniam. Ipsum tempor ipsum laborum minim
+            Lorem et cillum.
+          </p>
+        </div>
+
+        <div class="mt-5">
+
+          <FooterPage></FooterPage>
+        </div>
       </div>
-
-      <div class="p-2 d-flex justify-space-around flex-wrap section-packages">
-          <CardPackage></CardPackage>
-          <CardPackage></CardPackage>
-          <CardPackage></CardPackage>
-          <CardPackage></CardPackage>
-        </div>
-
-        <div class="mt-5 px-10">
-          <p>
-            Aute cupidatat <a href="">Lorem</a>Lorem occaecat ad aute culpa
-            <a href="">qui</a> magna minim. Magna aliqua commodo ad laboris
-            velit esse laborum pariatur quis duis consectetur. Eiusmod cillum
-            nulla magna Lorem ipsum culpa cupidatat elit. Veniam ut
-            reprehenderit duis sunt deserunt aliquip non irure ut voluptate
-            Lorem nulla exercitation veniam. Ipsum tempor ipsum laborum minim
-            Lorem et cillum.
-          </p>
-          <p>
-            Aute cupidatat <a href="">Lorem</a>Lorem occaecat ad aute culpa
-            <a href="">qui</a> magna minim. Magna aliqua commodo ad laboris
-            velit esse laborum pariatur quis duis consectetur. Eiusmod cillum
-            nulla magna Lorem ipsum culpa cupidatat elit. Veniam ut
-            reprehenderit duis sunt deserunt aliquip non irure ut voluptate
-            Lorem nulla exercitation veniam. Ipsum tempor ipsum laborum minim
-            Lorem et cillum.
-          </p>
-        </div>
-
-        <FooterPage></FooterPage>
-      
     </div>
   </div>
 </template>
