@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <div class="HomeView">
     <!------------------------------------------------>
     <!-----------------HOME SECTION------------------>
     <!------------------------------------------------>
     <NavBar></NavBar>
+    <NavBarMovile v-if="$vuetify.breakpoint.xs"></NavBarMovile>
     <div id="home">
       <div class="background-container">
         <div class="text-container">
@@ -139,12 +140,14 @@
 import NavBar from "../../components/NavBar/NavBar.vue";
 import CardPackage from "@/components/CARD/CardPackage.vue";
 import FooterPage from "@/components/Footer/FooterPage.vue";
+import NavBarMovile from "@/components/NavBar-movile/NavBar-movile.vue";
 import "./Style.css";
 
 export default {
   name: "HomeView",
   components: {
     NavBar,
+    NavBarMovile,
     CardPackage,
     FooterPage,
   },

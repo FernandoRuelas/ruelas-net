@@ -1,5 +1,5 @@
 <template>
-  <v-sheet height="150" class="rounded-b-0" color="#0065ff">
+  <v-sheet height="150"  color="#0065ff" :class="['rounded-b-0', $vuetify.breakpoint.xs && 'mb-5']">
 
     <v-row justify="space-around" class="align-center heigth-100 container-footer" >
       <div >
