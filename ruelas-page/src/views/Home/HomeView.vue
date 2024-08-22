@@ -127,7 +127,7 @@
           </p>
         </div>
 
-        <div class="mt-5">
+        <div class="mt-5" id="contact">
 
           <FooterPage></FooterPage>
         </div>

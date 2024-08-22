@@ -1,32 +1,22 @@
 <template>
     <v-bottom-navigation
     background-color="#0065ff"
-    dark
-    shift
     absolute
   >
-    <v-btn>
-      <span>Video</span>
-
-      <v-icon>mdi-television-play</v-icon>
+    <v-btn>      
+      <i class="fa fa-home-alt"></i>
     </v-btn>
 
     <v-btn>
-      <span>Music</span>
-
-      <v-icon>mdi-music-note</v-icon>
+      <i class="fas fa-user"></i>
     </v-btn>
 
     <v-btn>
-      <span>Book</span>
-
-      <v-icon>mdi-book</v-icon>
+      <i class="fa fa-wifi"></i>
     </v-btn>
 
     <v-btn>
-      <span>Image</span>
-
-      <v-icon>mdi-image</v-icon>
+      <i class="fa-solid fa-phone"></i>
     </v-btn>
   </v-bottom-navigation>
 </template>
