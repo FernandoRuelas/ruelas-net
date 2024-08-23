@@ -9,8 +9,9 @@ export default {
       if (element && container) {
         const elementPosition = element.offsetTop;
 
-        const scrollPosition = elementPosition - 47; // 47 is the heigth of header
+        const heigthOfHeader = (id == 'about') ? 275 : 47// 47 is the heigth of header
 
+        const scrollPosition = elementPosition - heigthOfHeader ; 
         container.scrollTo({ top: scrollPosition, behavior: "smooth" });
       }
     },
