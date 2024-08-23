@@ -4,8 +4,15 @@ export default {
     
     scrollTo(id) {
       const element = document.getElementById(id);
-      element &&
-        element.scrollIntoView({ behavior: "smooth", block: "center" });
+      const container = document.querySelector(".HomeView");
+
+      if (element && container) {
+        const elementPosition = element.offsetTop;
+
+        const scrollPosition = elementPosition - 47; // 47 is the heigth of header
+
+        container.scrollTo({ top: scrollPosition, behavior: "smooth" });
+      }
     },
   },
 };
