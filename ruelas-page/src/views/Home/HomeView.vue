@@ -6,16 +6,13 @@
     <NavBar></NavBar>
     <NavBarMovile v-if="$vuetify.breakpoint.xs"></NavBarMovile>
     <div id="home">
-      <div class="background-container">
-        <div class="text-container">
-          <h2>{{ $t('title') }}</h2>
-          <h4>Texto de ejemplo para esta sección, siempre resaltará</h4>
+      <div class="background-container container-flayer">
+        <div>
+          <h2>{{ $t("title") }}</h2>
+          <h4>{{ $t("subtitulo") }}</h4>
         </div>
         <img
-          class="img"
-          src="../../assets/logo.png"
-          width="250px"
-          height="250px"
+          src="../../assets/imgs/imgPrincipal.png"
         />
       </div>
     </div>
@@ -26,16 +23,16 @@
     <div id="about" class="about">
       <div class="container-left">
         <div>
-          <h2>Nulla incididunt excepteur consequat.</h2>
+          <h2>{{ $t("aboutTitulo") }}</h2>
           <h4>
-            Nostrud adipisicing excepteur adipisicing sit amet labore ullamco
-            quis ipsum.
+            {{ $t("aboutSubtitulo") }}
           </h4>
         </div>
 
         <v-card elevation="0" max-width="500">
           <v-carousel
-            cycl
+           cycle
+          interval="3500"
             height="350"
             hide-delimiter-background
             show-arrows-on-hover
@@ -43,7 +40,8 @@
             <v-carousel-item>
               <v-sheet height="100%" width="500">
                 <div class="container-image img1">
-                  <h3>Lorem Ipsum</h3>
+                  <p>{{ $t('textCarrusel1') }}</p>
+                  <p class="mb-5">{{ $t('textCarrusel1Desc') }}</p>
                 </div>
               </v-sheet>
             </v-carousel-item>
@@ -51,17 +49,17 @@
             <v-carousel-item>
               <v-sheet height="100%" width="500">
                 <div class="container-image img2">
-                  <h3>Lorem Ipsum</h3>
-                  <h3>Is simply dummy text of print</h3>
-                </div>
+                  <p>{{ $t('textCarrusel2') }}</p>
+                  <p class="mb-5">{{ $t('textCarrusel2Desc') }}</p>
+                  </div>
               </v-sheet>
             </v-carousel-item>
 
             <v-carousel-item>
               <v-sheet height="100%" width="500">
                 <div class="container-image img3">
-                  <h3>Lorem Ipsum</h3>
-                  <h3>Is simply dummy text of print</h3>
+                  <p>{{ $t('textCarrusel3') }}</p>
+                  <p class="mb-5">{{ $t('textCarrusel3Desc') }}</p> 
                 </div>
               </v-sheet>
             </v-carousel-item>
@@ -70,21 +68,15 @@
       </div>
       <div>
         <div>
-          <h2>Nulla incididunt excepteur consequat enim.</h2>
+          <h2>{{ $t("vision") }}</h2>
           <h4>
-            Nostrud adipisicing excepteur adipisicing sit amet labore ullamco
-            quis ipsum. Ipsum elit ipsum laboris occaecat deserunt in laboris.
-            Do laborum reprehenderit non nulla esse sit proident ipsum quis
-            officia id laboris reprehenderit ipsum.
+            {{ $t("visionText") }}
           </h4>
         </div>
         <div>
-          <h2>Nulla incididunt excepteur consequat enim.</h2>
+          <h2>{{ $t("mision") }}</h2>
           <h4>
-            Nostrud adipisicing excepteur adipisicing sit amet labore ullamco
-            quis ipsum. Ipsum elit ipsum laboris occaecat deserunt in laboris.
-            Do laborum reprehenderit non nulla esse sit proident ipsum quis
-            officia id laboris reprehenderit ipsum.
+            {{ $t("misionText") }}
           </h4>
         </div>
       </div>
@@ -96,7 +88,7 @@
     <div id="packages">
       <div class="background-container d-flex flex-column">
         <div class="packages-text-container">
-          <h2>Packages</h2>
+          <h2>{{ $t("packages") }}</h2>
         </div>
 
         <div class="p-2 d-flex justify-space-around flex-wrap section-packages">
@@ -108,27 +100,23 @@
 
         <div class="mt-5 px-10 packages-container-avisos">
           <p>
-            Aute cupidatat <a href="">Lorem</a>Lorem occaecat ad aute culpa
-            <a href="">qui</a> magna minim. Magna aliqua commodo ad laboris
-            velit esse laborum pariatur quis duis consectetur. Eiusmod cillum
-            nulla magna Lorem ipsum culpa cupidatat elit. Veniam ut
-            reprehenderit duis sunt deserunt aliquip non irure ut voluptate
-            Lorem nulla exercitation veniam. Ipsum tempor ipsum laborum minim
-            Lorem et cillum.
+            {{ $t("packagesMsg") }} {{ $t("consulteNuestros") }} <a>{{ $t("terminosCondiciones") }}</a>
           </p>
           <p>
-            Aute cupidatat <a href="">Lorem</a>Lorem occaecat ad aute culpa
-            <a href="">qui</a> magna minim. Magna aliqua commodo ad laboris
-            velit esse laborum pariatur quis duis consectetur. Eiusmod cillum
-            nulla magna Lorem ipsum culpa cupidatat elit. Veniam ut
-            reprehenderit duis sunt deserunt aliquip non irure ut voluptate
-            Lorem nulla exercitation veniam. Ipsum tempor ipsum laborum minim
-            Lorem et cillum.
+            {{ $t("packagesMsg2") }} <a>{{ $t("avisoPrivacidad") }}</a>
+          </p>
+          <p>
+            {{ $t("packagesMsg3") }} <a>{{ $t("consulteAqui") }}</a>
+          </p>
+          <p>
+            {{ $t("consulteNuestras") }} <a>{{ $t("politicas") }}</a>
+          </p>
+          <p>
+         
           </p>
         </div>
 
         <div class="mt-5" id="contact">
-
           <FooterPage></FooterPage>
         </div>
       </div>

@@ -1,5 +1,42 @@
 {
+    "headerTitle":"RuelasNet",
 
-    "title":"Ejemplo de titulo"
+    "home":"Inicio",
+    "about":"Nosotros",
+    "contact":"Contactanos",
 
+    "title": "Conectividad sin l\u00EDmites, donde otros no alcanzan",
+    "subtitulo": "Lleva la conexi\u00F3n a tu hogar de la manera m\u00E1s confiable! Tu conexi\u00F3n, tu libertad.",
+    
+    "aboutTitulo": "Transformamos las barreras en oportunidades.",
+    "aboutSubtitulo": "En \u00E1reas rurales, donde la conexi\u00F3n es un desafi\u00EDo.",
+    "vision": "Visi\u00F3n",
+    "visionText": "Conectar a cada rinc\u00F3n del pa\u00EDs con soluciones de internet innovadoras y accesibles, transformando las \u00E1reas rurales en comunidades digitalmente integradas y empoderadas, y fomentando un futuro donde la conectividad no sea un privilegio, sino un derecho para todos.",
+    "mision": "Misi\u00F3n",
+    "misionText": "Nuestra visi\u00F3n es proporcionar conectividad de alta calidad y confiable a comunidades rurales, donde las grandes marcas a\u00FAn no llegan, impulsando el desarrollo digital y econ\u00F3mico local. Nos comprometemos a ofrecer soluciones de internet seguras, accesibles y adaptadas a las necesidades de nuestros clientes, fomentando as\u00ED la inclusi\u00F3n digital y la igualdad de oportunidades en todo el pa\u00EDs.",
+    
+    "textCarrusel1":"Seguridad",
+    "textCarrusel1Desc":"Mantente siempre comunicado",
+
+    "textCarrusel2":"Diviertete",
+    "textCarrusel2Desc":"Lleva la diversion a cualquier lugar",
+    
+    "textCarrusel3":"Disfruta",
+    "textCarrusel3Desc":"Realajate sin desconectarte",
+
+
+
+    "packages":"Paquetes",
+    "packagesMsg": "Todos nuestros paquetes al ser instalados representan un cobro de $2500 MXN, este cobro puede ser diferido a 12 meses sin intereses",
+    "packagesMsg2": "Para saber m\u00E1s sobre nuestras pol\u00EDticas consulte nuestro",
+    "avisoPrivacidad": "aviso de privacidad",
+    "packagesMsg3": "Para saber acerca de las situaciones en las que puede presentarse una mala conexi\u00F3n",
+    "consulteAqui": "consulte aqu\u00ED",
+    "consulteNuestras": "Consulte nuestras",
+    "politicas": "pol\u00EDticas",
+    "consulteNuestros": "Consulte nuestros",
+    "terminosCondiciones": "t\u00E9rminos y condiciones"
+
+
+    
 }

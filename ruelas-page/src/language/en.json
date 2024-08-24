@@ -1,4 +1,37 @@
 {
+    "headerTitle":"RuelasNet",
 
-    "title":"Example for TITLE"
+    "home":"Home",
+    "about":"about",
+    "contact":"contact",
+
+    "title": "Connectivity without limits, where others cannot reach",
+    "subtitulo": "Bring the connection to your home in the most reliable way! Your connection, your freedom.",
+    
+    "aboutTitulo": "We turn barriers into opportunities.",
+    "aboutSubtitulo": "In rural areas, where connection is a challenge.",
+    "vision": "Vision",
+    "visionText": "Connecting every corner of the country with innovative and accessible internet solutions, transforming rural areas into digitally integrated and empowered communities, and fostering a future where connectivity is not a privilege, but a right for all.",
+    "mision": "Mission",
+    "misionText": "Our vision is to provide high-quality and reliable connectivity to rural communities, where major brands have yet to reach, driving local digital and economic development. We are committed to offering secure, accessible internet solutions tailored to the needs of our clients, thus promoting digital inclusion and equal opportunities throughout the country.",
+    
+"textCarrusel1": "Security",
+"textCarrusel1Desc": "Stay always connected",
+
+"textCarrusel2": "Have Fun",
+"textCarrusel2Desc": "Bring the fun anywhere",
+
+"textCarrusel3": "Enjoy",
+"textCarrusel3Desc": "Relax without disconnecting",
+
+    "packetes":"Packages",
+    "packagesMsg": "All our packages, when installed, represent a charge of $2500 MXN, this charge can be deferred over 12 months without interest",
+    "packagesMsg2": "To learn more about our policies, please consult our",
+    "avisoPrivacidad": "Privacy notice",
+    "packagesMsg3": "To learn about situations where a poor connection might occur",
+    "consulteAqui": "consult here",
+    "consulteNuestras": "Consult our",
+    "politicas": "policies",
+    "consulteNuestros": "Consult our",
+    "terminosCondiciones": "terms and conditions"
 }

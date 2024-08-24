@@ -8,8 +8,8 @@
     <v-row justify="space-between" class="align-center">
       <div class="d-flex align-center">
        
-        <img src="../../assets/logo.png" alt="" width="24px" height="24px" />
-        <v-toolbar-title class="white--text ml-2">Title</v-toolbar-title>
+        <img src="../../assets/imgs/logo.png" alt="" width="24px" height="24px" />
+        <v-toolbar-title class="white--text ml-2">{{ $t('headerTitle') }}</v-toolbar-title>
       </div>
       <div>
         <v-list
@@ -23,7 +23,7 @@
             <template v-slot:default="{}">
               <v-list-item-content>
                 <v-list-item-title class="white--text" @click="scrollTo('home')"
-                  >Home</v-list-item-title
+                  >{{ $t('home') }}</v-list-item-title
                 >
               </v-list-item-content>
             </template>
@@ -34,7 +34,7 @@
                 <v-list-item-title
                   class="white--text"
                   @click="scrollTo('about')"
-                  >About</v-list-item-title
+                  >{{ $t('about') }}</v-list-item-title
                 >
               </v-list-item-content>
             </template>
@@ -45,7 +45,7 @@
                 <v-list-item-title
                   class="white--text"
                   @click="scrollTo('packages')"
-                  >Packages</v-list-item-title
+                  >{{ $t('packages') }}</v-list-item-title
                 >
               </v-list-item-content>
             </template>
@@ -56,7 +56,7 @@
                 <v-list-item-title
                   class="white--text"
                   @click="scrollTo('contact')"
-                  >Contact</v-list-item-title
+                  >{{ $t('contact') }}</v-list-item-title
                 >
               </v-list-item-content>
             </template>
