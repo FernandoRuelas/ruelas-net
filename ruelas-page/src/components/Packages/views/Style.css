@@ -1,0 +1,49 @@
+
+
+/*******PACKAGES******/
+.packages-text-container {
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .heigth-100{
+      height: 100%;
+  }
+  
+  #packages{
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+  }
+  
+  .section-packages{
+      gap:20px;
+  }
+  
+  .container-footer{
+      flex-wrap: wrap;
+  }
+  
+  .container-footer > div{
+      display: flex;
+      justify-content: center;
+      min-width: 250px;
+      align-self: center;
+  }
+  
+  @media (max-width: 792px) {
+
+
+    #packages > .background-container{
+      background-color: #0065ff;
+    }
+  
+  
+    .packages-container-avisos{
+    background-color: white;
+      /* color:white; */
+    }
+  
+  }

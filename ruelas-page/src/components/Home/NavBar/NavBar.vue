@@ -1,6 +1,21 @@
 
 <style>
-@import './style.css';
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navBar-list{
+    display: flex;
+  }
+  .no-select .v-list-item--active {
+    background-color: transparent;
+  }
+  
+  .navBar-list .v-list-item__title {
+    cursor: pointer;
+  }
 </style>
 
 <template>
@@ -8,7 +23,7 @@
     <v-row justify="space-between" class="align-center">
       <div class="d-flex align-center">
        
-        <img src="../../assets/imgs/logo.png" alt="" width="24px" height="24px" />
+        <img src="../../../assets/imgs/logo.png" alt="" width="24px" height="24px" />
         <v-toolbar-title class="white--text ml-2">{{ $t('headerTitle') }}</v-toolbar-title>
       </div>
       <div>
@@ -72,6 +87,24 @@
 
 
 <script>
-import navBAr from './navBar.js'
-export default navBAr;
+export default {
+  name: "NavBar",
+  methods: {
+    
+    scrollTo(id) {
+      const element = document.getElementById(id);
+      const container = document.querySelector(".HomeView");
+
+      if (element && container) {
+        const elementPosition = element.offsetTop;
+
+        const heigthOfHeader = (id == 'about') ? 275 : 47// 47 is the heigth of header
+
+        const scrollPosition = elementPosition - heigthOfHeader ; 
+        container.scrollTo({ top: scrollPosition, behavior: "smooth" });
+      }
+    },
+  },
+};
+
 </script>

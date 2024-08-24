@@ -1,0 +1,94 @@
+
+/* ****************About****************** */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 30px;
+    margin-bottom: 80px;
+  }
+  
+  #about > div {
+    min-width: 300px;
+  }
+  
+  #about h2,
+  #about h4 {
+    color: #0065ff;
+  }
+  
+  
+  /*First div*/
+  #about > div:first-child {
+    margin-top: -140px;
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .container-left > div > h4 {
+    text-wrap: wrap;
+    width: clamp(200px, 50vw, 480px);
+  }
+  
+  
+  .container-image > p{
+    background: linear-gradient(to right,white,#B5E4FF);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0;
+    font-weight: 800;
+    font-size: 29px;
+  }
+  
+  
+  
+  /*carrusel*/
+  .img1 {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 101, 255, 0.5) 0%,
+        rgba(0, 0, 0, 0.1) 60%
+      ),
+      url("../../../assets/imgs/image1.png");
+      
+  }
+  .img2 {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 101, 255, 0.5) 0%,
+        rgba(0, 0, 0, 0.1) 60%
+      ),
+      url("../../../assets/imgs/image2.png");
+  }
+  
+  .img3 {
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 101, 255, 0.5) 0%,
+        rgba(0, 0, 0, 0.1) 60%
+      ),
+      url("../../../assets/imgs/image3.png");
+  }
+  
+  /*second div*/
+  #about > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    flex: 1 1 55%;
+  }
+
+  @media (max-width: 792px) {
+
+    #about > div:first-child{
+      margin-top: 0;
+    }
+  
+  
+  
+  }
+  
+  

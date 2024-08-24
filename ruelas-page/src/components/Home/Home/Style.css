@@ -1,0 +1,86 @@
+
+.HomeView{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+  
+  
+  
+  .container-flayer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 25px;
+  }
+  
+  .container-flayer > div{
+    margin-top: 20px;
+    color: white;
+    
+  }
+  
+  .container-flayer > img{
+    align-self: end;
+    margin-bottom: 2px;
+    height: 300px;
+    width: 350px;
+  }
+  
+  
+  
+  .background-container {
+    height: auto;
+    width: 100%;
+    background-image: url("../../../assets/imgs/Vector3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+  }
+  
+  #home > .background-container{
+    height: 350px;
+    position: relative;
+  }
+  
+  .container-image {
+  
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+  }
+  
+  
+  
+  .navBar-list {
+    background: #0065ff;
+    height: 45px;
+    padding: 0;
+  }
+  
+  @media (max-width: 792px) {
+    #home > .background-container{
+      height: 250px;
+      background-color: #0065ff;
+     
+    }
+  
+    .navBar-list{
+      display: none;
+    }
+   
+    .text-container {
+      left: 5%;
+      top: 0px;
+    }
+  
+    .container-flayer > img {
+    height: 150px;
+    width: 200px;
+  }
+  
+  }
+  
