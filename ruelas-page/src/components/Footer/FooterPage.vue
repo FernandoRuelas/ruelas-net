@@ -4,7 +4,7 @@
     <v-row justify="space-around" class="align-center heigth-100 container-footer" >
       <div >
         <i class="fa-solid fa-phone white--text"></i>
-        <p class="white--text" @click="call">Phone</p>
+        <p class="white--text" @click="call">{{ $t("phone") }}</p>
       </div>
       <div >
         <i class="fa-brands fa-instagram white--text"></i> 

@@ -6,14 +6,11 @@
     <NavBar></NavBar>
     <NavBarMovile v-if="$vuetify.breakpoint.xs"></NavBarMovile>
     <MyHome></MyHome>
-    <!------------------------------------------------>
-    <!-----------------ABOUT SECTION------------------>
-    <!------------------------------------------------>
     <MyAbout></MyAbout>
-    <!------------------------------------------------>
-    <!-----------------PACKAGES SECTION--------------->
-    <!------------------------------------------------>
     <Packages></Packages>
+    <div class="mt-5" id="contact">
+        <FooterPage></FooterPage>
+    </div>
   </div>
 </template>
 
@@ -23,7 +20,7 @@ import NavBarMovile from "@/components/Home/NavBar-movile/NavBar-movile.vue";
 import MyHome from "@/components/Home/Home/MyHome.vue";
 import MyAbout from "@/components/About/About/MyAbout.vue";
 import Packages from "@/components/Packages/views/Packages.vue";
-
+import FooterPage from "@/components/Footer/FooterPage.vue";
 
 export default {
   name: "HomeView",
@@ -33,6 +30,7 @@ export default {
     MyHome,
     MyAbout,
     Packages,
+    FooterPage
   },
   data: () => ({}),
   methods: {},

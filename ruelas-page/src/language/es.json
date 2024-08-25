@@ -27,6 +27,7 @@
 
 
     "packages":"Paquetes",
+    "package":"Paquete",
     "packagesMsg": "Todos nuestros paquetes al ser instalados representan un cobro de $2500 MXN, este cobro puede ser diferido a 12 meses sin intereses",
     "packagesMsg2": "Para saber m\u00E1s sobre nuestras pol\u00EDticas consulte nuestro",
     "avisoPrivacidad": "aviso de privacidad",
@@ -35,8 +36,22 @@
     "consulteNuestras": "Consulte nuestras",
     "politicas": "pol\u00EDticas",
     "consulteNuestros": "Consulte nuestros",
-    "terminosCondiciones": "t\u00E9rminos y condiciones"
+    "terminosCondiciones": "t\u00E9rminos y condiciones",
 
+    "package1Title":"ILIMITADO 10",
+    "benefits":"Benificios destacados :",
+    "package1Point":"Navega sin preocupaciones",
+    "package1Point2":"Comparte momentos especiales",
+  
+    "package2Title": "ILIMITADO 20",
+    "package2Point": "Velocidad estable",
+    "package2Point2":"Conexi\u00F3n estable",
+    "package2Point3":"Perfecto para uso familiar",
+  
+    "package3Title":"ILIMIADO 30",
+    "package3Point":"Velocidad Potencial",
+    "package3Point2":"Conexi\u00F3n ilimitada",
+    "package3Point3":"Videoconferencias en alta resoluci\u00F3n"
 
     
 }
