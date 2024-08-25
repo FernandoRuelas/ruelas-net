@@ -23,7 +23,7 @@
     <v-row justify="space-between" class="align-center">
       <div class="d-flex align-center">
        
-        <img src="../../../assets/imgs/logo.png" alt="" width="24px" height="24px" />
+        <!-- <img src="../../../assets/imgs/logo.png" alt="" width="24px" height="24px" /> -->
         <v-toolbar-title class="white--text ml-2">{{ $t('headerTitle') }}</v-toolbar-title>
       </div>
       <div>

@@ -4,19 +4,19 @@
     <v-row justify="space-around" class="align-center heigth-100 container-footer" >
       <div >
         <i class="fa-solid fa-phone white--text"></i>
-        <p class="white--text" @click="call">{{ $t("phone") }}</p>
+        <p class="white--text" @click="call">6221562893</p>
       </div>
       <div >
         <i class="fa-brands fa-instagram white--text"></i> 
-        <p class="white--text">Instagram</p>
+        <p class="white--text">fernandoruelas03</p>
       </div>
       <div >
         <i class="fa-brands fa-facebook"></i>
-        <p class="white--text">Facebook</p>
+        <p class="white--text">Fernando R Ruelas</p>
       </div>
       <div >
         <i class="fa-regular fa-envelope"></i>
-        <p class="white--text">E-MAIL</p>
+        <p class="white--text">fernandor.ruelas@gmail.com</p>
       </div>
     </v-row>
 

@@ -45,7 +45,7 @@
       </v-card-text>
 
        <v-card-actions class="d-flex justify-center">
-        <v-btn color="primary">Contratar</v-btn>
+        <v-btn color="primary" @click="scrollTo('contact')">{{ $t('contact') }}</v-btn>
       </v-card-actions> 
     </v-card>
   </div>
@@ -70,6 +70,21 @@ export default {
     points: {
       type: Array,
       required: true,
+    },
+  },
+  methods:{
+    scrollTo(id) {
+      const element = document.getElementById(id);
+      const container = document.querySelector(".HomeView");
+
+      if (element && container) {
+        const elementPosition = element.offsetTop;
+
+        const heigthOfHeader = (id == 'about') ? 275 : 47// 47 is the heigth of header
+
+        const scrollPosition = elementPosition - heigthOfHeader ; 
+        container.scrollTo({ top: scrollPosition, behavior: "smooth" });
+      }
     },
   },
 };
